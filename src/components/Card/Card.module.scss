@@ -1,0 +1,41 @@
+.cardUi {
+  border: 1px solid rgba(0, 0, 0, 0.365);
+  box-shadow: rgba(32, 126, 193, 0.091) 0 0 5px 1px;
+  padding: 7px;
+  border-radius: 8px;
+  display: grid;
+  grid-template-rows: min-content auto auto;
+  height: 300px;
+  font-size: 20px;
+  transition: all ease-in-out 0.3s;
+  &:hover {
+    box-shadow: rgba(44, 116, 175, 0.411) 0 0 10px 1px;
+  }
+
+  .img {
+    grid-column: 1/2;
+    grid-row: 1/3;
+
+    border-radius: 5px;
+    object-fit: cover;
+  }
+  .category {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+  }
+  .title {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    padding: 5px 0 5px 5px;
+    font-weight: 600;
+  }
+  .authors {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding: 5px;
+  }
+}

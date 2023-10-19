@@ -1,0 +1,19 @@
+.cardContainer {
+  padding: 30px;
+}
+.cardContainer .ListPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.cardContainer .cardList {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 15px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}/*# sourceMappingURL=CardList.module.css.map */
